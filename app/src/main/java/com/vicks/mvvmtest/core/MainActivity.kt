@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
 
-        binding.productButton.setOnClickListener{
+        binding.btnProducts.setOnClickListener{
             val intent = Intent(this, ProductActivity::class.java)
             startActivity(intent)
         }

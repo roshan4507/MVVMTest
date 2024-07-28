@@ -10,7 +10,7 @@
         tools:context=".core.MainActivity">
 
         <Button
-            android:id="@+id/product_button"
+            android:id="@+id/btn_products"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVVMTest</string>
+    <string name="view_products">View Products</string>
+    <string name="product_name">Product Name</string>
+</resources>

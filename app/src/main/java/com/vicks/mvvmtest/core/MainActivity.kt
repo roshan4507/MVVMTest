@@ -22,27 +22,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ProductActivity::class.java)
             startActivity(intent)
         }
-
-        /*recyclerView = findViewById(R.id.productList)
-        recyclerView.layoutManager = GridLayoutManager(this, 2)
-
-        val repository = (application as StoreApplication).productRepository
-        productViewModel =
-            ViewModelProvider(this, ProductViewModelFactory(repository)).get(ProductViewModel::class.java)
-        productViewModel.getProducts()
-
-        productViewModel.products.observe(this, Observer {
-            when (it) {
-                is NetworkResult.Success -> {
-                    adapter = ProductAdapter(it.data!!)
-                    recyclerView.adapter = adapter
-                }
-
-                is NetworkResult.Error -> {
-                    Log.d("APP", "ERROR")
-
-                }
-            }
-        })*/
     }
 }
